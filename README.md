@@ -21,6 +21,9 @@ On mobile devices this is very slow because the shaders are quite complex and mu
     light->setUpScale(2.0);
     light->setLightSize(32);
     light->setAdditive(true);
+    
+    // this will set the shadow casters
+    light->setShadowCasters(dynamic_cast<CCTMXTiledMap*>(this->getParent())->layerNamed("myMap"));
 
     light->initOcclusionMap();
     light->initShadowMap1D();
