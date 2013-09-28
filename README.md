@@ -3,7 +3,7 @@ dynLight
 
 Dynamic Lightning for cocos2d-x
 
-This is a simple cocos2d-x version of 2d pixel perfect shadows based on these [techniques].
+This is a simple cocos2d-x version of 2d pixel perfect shadows based on these [techniques][].
 
 ### Note
 
