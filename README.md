@@ -40,4 +40,4 @@ On mobile devices this is very slow because the shaders are quite complex and mu
     }
 ```
 
-[here]: https://github.com/mattdesl/lwjgl-basics/wiki/2D-Pixel-Perfect-Shadows
+[techniques]: https://github.com/mattdesl/lwjgl-basics/wiki/2D-Pixel-Perfect-Shadows
