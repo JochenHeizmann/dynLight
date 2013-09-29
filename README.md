@@ -35,8 +35,7 @@ On mobile devices this is very slow because the shaders are quite complex and mu
     void MyClass::update(float fDelta)
     {
         light->setPosition(somePos);
-        // setPosition will call invalidateBakedMap() and therefore
-        // recalculate the shadows
+        light->invalidateBakedMap; // recalculate the shadows
     }
 ```
 
