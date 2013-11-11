@@ -1,3 +1,8 @@
+NOTE
+====
+
+We've merged this into the [avalon repository][] and so I won't update this repo any more.
+
 dynLight
 ========
 
@@ -40,3 +45,4 @@ On mobile devices this is very slow because the shaders are quite complex and mu
 ```
 
 [techniques]: https://github.com/mattdesl/lwjgl-basics/wiki/2D-Pixel-Perfect-Shadows
+[avalon repository]: https://github.com/hovergames/avalon/tree/master/avalon/graphics
